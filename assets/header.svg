@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880"
+  height="248" viewBox="0 0 880 248"
+  role="img" aria-label="Samay Shetty — DevOps Engineer">
+  <defs>
+    <linearGradient id="nameFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#3fb950" />
+    </linearGradient>
+  </defs>
+  <style>
+    .name {
+      font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    .meta {
+      font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 14px;
+      fill: #8b949e;
+    }
+    .mono {
+      font-family: ui-monospace, 'Cascadia Code', Consolas, 'Courier New', monospace;
+      font-size: 14.5px;
+      fill: #c9d1d9;
+    }
+    .small {
+      font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 12px;
+      fill: #8b949e;
+    }
+  </style>
+  <rect width="880" height="248" rx="14"
+    fill="#0d1117" stroke="#21262d" />
+  <text x="30" y="56" class="name" fill="url(#nameFill)">Samay Shetty</text>
+  <text x="30" y="84" class="meta">Samay Shetty — DevOps Engineer — Bengaluru, India</text>
+  <g>
+    <clipPath id="type1">
+      <rect x="30" y="110" width="0" height="22">
+        <animate attributeName="width" values="0;8" dur="1.20s"
+          begin="0.80s" fill="freeze" calcMode="linear" />
+      </rect>
+    </clipPath>
+    <text x="30" y="126" clip-path="url(#type1)" class="mono"></text>
+    <rect x="30" y="112" width="9" height="17" rx="2" fill="#58a6ff">
+      <animate attributeName="x" values="30;38" dur="1.20s"
+        begin="0.80s" fill="freeze" calcMode="linear" />
+      <animate attributeName="opacity" values="1;0" dur="0.7s"
+        begin="0.80s" repeatCount="indefinite" calcMode="discrete" />
+    </rect>
+  </g>
+  <g>
+    <clipPath id="type2">
+      <rect x="30" y="144" width="0" height="22">
+        <animate attributeName="width" values="0;708" dur="2.40s"
+          begin="2.50s" fill="freeze" calcMode="linear" />
+      </rect>
+    </clipPath>
+    <text x="30" y="160" clip-path="url(#type2)" class="mono">Azure · OS Provisioning · Helm · Ansible · Argo CD · Thanos · HAProxy · Keycloak</text>
+    <rect x="30" y="146" width="9" height="17" rx="2" fill="#58a6ff">
+      <animate attributeName="x" values="30;738" dur="2.40s"
+        begin="2.50s" fill="freeze" calcMode="linear" />
+      <animate attributeName="opacity" values="1;0" dur="0.7s"
+        begin="2.50s" repeatCount="indefinite" calcMode="discrete" />
+    </rect>
+  </g>
+  <rect x="30" y="196" width="820" height="10" rx="5" fill="#21262d" />
+  <rect x="30" y="196" width="820" height="10" rx="5" fill="url(#nameFill)" />
+  <text x="30" y="228" class="small">Diamond · 37,027 XP · 622 active days</text>
+</svg>

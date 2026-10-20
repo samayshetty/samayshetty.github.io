@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Career branches, credentials and the résumé — proof, not logs. Only what a stranger can verify goes here." />
+<title>The proof · career.git</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='6' r='3' fill='%233fb950'/%3E%3Ccircle cx='6' cy='18' r='3' fill='%2358a6ff'/%3E%3Ccircle cx='18' cy='18' r='3' fill='%23d29922'/%3E%3Cpath d='M12 9v3M12 12l-6 3M12 12l6 3' stroke='%238b949e' stroke-width='1.6'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="./style.css?v=1792471911" />
+</head>
+<body data-page="work">
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./index.html"><span class="brand-mark">⌁</span> career.git</a>
+    <nav class="page-links" aria-label="Pages">
+      <a class="page-link" href="./index.html">Home</a>
+      <a class="page-link" href="./journey.html">Journey</a>
+      <a class="page-link" href="./work.html">Work</a>
+      <a class="page-link" href="./delta.html">Delta</a>
+    </nav>
+    <span class="hud-stat" id="hud-stat"></span>
+    <nav class="ext-links" aria-label="Links">
+      <a href="https://www.linkedin.com/in/samay-shetty-597191247/" rel="me noopener">LinkedIn</a>
+      <a href="mailto:samaymshetty@gmail.com" rel="me noopener">Email</a>
+      <a href="./assets/resume.pdf" download="Samay_Shetty_DevOps_Engineer_Resume.pdf" title="Download résumé">résumé ↓</a>
+    </nav>
+    <button id="audio-btn" class="palette-btn audio-btn" type="button" title="Ambient sound" aria-pressed="false"></button>
+    <button id="palette-open" class="palette-btn" type="button" title="Quick jump">
+      <kbd>Ctrl</kbd><kbd>K</kbd>
+    </button>
+  </div>
+</header>
+
+
+<header class="page-head reveal">
+  <p class="hero-kicker">The proof</p>
+  <h1 class="hero-name hero-name-sm">Proof, not logs</h1>
+  <p class="section-lead">
+    A tracker is for building résumés, not for reading. This page keeps only
+    what a stranger can verify: the career branches, the credentials — and the
+    résumé itself.
+  </p>
+</header>
+
+<section class="section section-first reveal" id="branches">
+  <h2 class="section-title">Career branches</h2>
+  <p class="section-lead">Trajectories, the way a working tree would keep them.</p>
+  <article class="card branch" id="branches-feature-air-gapped-delivery">
+    <header class="branch-head">
+      <code class="branch-name">⌥ feature/air-gapped-delivery</code>
+      <span class="chip chip-merged">merged</span>
+      <span class="branch-period">2026</span>
+    </header>
+    <p class="branch-summary">Offline-first platform delivery: no registry, no internet, no excuses.</p>
+    <ul class="branch-lines">
+<li>Built brownfield upgrade automation as one Ansible framework spanning Azure-hosted, bare-metal, air-gapped and single-node estates, with Ansible Vault secrets, preflight checks, backup/restore and Helm reconciliation.</li><li>Added seven customer-selectable component groups to Helm deployment, mapping pipeline checkboxes to conditional chart installation while preserving chart order and online/air-gapped registry handling.</li><li>Reduced legacy deployment code by over 40% against a 20% target by unifying greenfield, air-gapped and bare-metal templates into one shared structure.</li>    </ul>
+  </article>
+  <article class="card branch" id="branches-feature-observability">
+    <header class="branch-head">
+      <code class="branch-name">⌥ feature/observability</code>
+      <span class="chip chip-merged">merged</span>
+      <span class="branch-period">2025-2026</span>
+    </header>
+    <p class="branch-summary">Monitoring that survives a cold start: metrics, long-range queries, alerts that matter.</p>
+    <ul class="branch-lines">
+<li>Configured Prometheus monitoring and deployed Thanos in Kubernetes test environments; investigated authentication and query-connectivity issues.</li>    </ul>
+  </article>
+  <article class="card branch" id="branches-feature-release-automation">
+    <header class="branch-head">
+      <code class="branch-name">⌥ feature/release-automation</code>
+      <span class="chip chip-merged">merged</span>
+      <span class="branch-period">2024-2026</span>
+    </header>
+    <p class="branch-summary">Every release on the train: patches, hotfixes, handover.</p>
+    <ul class="branch-lines">
+<li>Built Python release orchestration for pipeline discovery, missing-build triggers, container image inventory, per-registry signing handoffs and consolidated HTML/Excel reports.</li><li>Reduced end-to-end deployment elapsed time from 2-3 weeks manually to about 3 hours through Release pipelines and about 1 hour through current Build pipelines.</li><li>Migrated classic Release pipelines to YAML Build pipelines for greenfield on-premises deployment, centralising templates, Key Vault integration and environment approvals, and removing self-hosted agent dependencies.</li>    </ul>
+  </article>
+  <article class="card branch" id="branches-docs-runbooks">
+    <header class="branch-head">
+      <code class="branch-name">⌥ docs/runbooks</code>
+      <span class="chip chip-merged">merged</span>
+      <span class="branch-period">2023-2026</span>
+    </header>
+    <p class="branch-summary">If the next deploy runs without me, this branch did its job.</p>
+    <ul class="branch-lines">
+<li>Authored operational runbooks for greenfield deployments and brownfield upgrades, covering configuration, troubleshooting and customer handover.</li>    </ul>
+  </article>
+  <article class="card branch" id="branches-chore-personal-tooling">
+    <header class="branch-head">
+      <code class="branch-name">⌥ chore/personal-tooling</code>
+      <span class="chip chip-merged">merged</span>
+      <span class="branch-period">2025-2026</span>
+    </header>
+    <p class="branch-summary">Public tools built for myself, kept alive in the open.</p>
+    <ul class="branch-lines">
+<li>career-forge: harvests actual work evidence and generates resumes and this site.</li><li>laptop-migration-toolkit: the boring utility everyone needs once.</li>    </ul>
+  </article>
+</section>
+
+<section class="section reveal" id="credentials">
+  <h2 class="section-title">Credentials</h2>
+  <article class="card">
+    <h3 class="card-subtitle">Education &amp; certifications</h3>
+    <ul class="plain-list">
+      <li><strong>Bachelor of Engineering, </strong> — RV Institute of Technology and Management (2019-08 → 2023-07) · GPA 8.8</li>
+      <li><strong>Microsoft Azure Administrator (AZ-104)</strong> — Microsoft · in progress</li>
+    </ul>
+  </article>
+</section>
+
+<section class="section reveal" id="personal">
+  <h2 class="section-title">Personal builds</h2>
+  <p class="section-lead">The quiet stuff on my own GitHub — one real utility, plus early projects that taught me the languages.</p>
+  <div class="personal-chips">
+    <a class="pchip" href="https://github.com/samayshetty/laptop-migration-toolkit" rel="noopener"><b>laptop-migration-toolkit</b><span>PowerShell · MIT</span></a>
+    <a class="pchip" href="https://github.com/samayshetty/WEBSITE-for-CAR-SERVICE-CENTRE" rel="noopener"><b>car-service-centre</b><span>HTML</span></a>
+    <a class="pchip" href="https://github.com/samayshetty/FILE_STRUCTURES_PROJECT-CONTACT-MANAGEMENT-SYSTEM" rel="noopener"><b>contact-management</b><span>Python</span></a>
+    <a class="pchip" href="https://github.com/samayshetty/DBMS_PROJECT-QUESTION-PAPER-ONLINE-DELIVERY-SYSTEM" rel="noopener"><b>question-paper-delivery</b><span>PHP</span></a>
+    <a class="pchip" href="https://github.com/samayshetty/MAD_FUEL-REIMBURSEMENT-FORM" rel="noopener"><b>fuel-reimbursement</b><span>Java</span></a>
+    <a class="pchip" href="https://github.com/samayshetty/JAVA_DECISION-MAKER" rel="noopener"><b>decision-maker</b><span>Java</span></a>
+  </div>
+  <p class="card-note">
+    laptop-migration-toolkit: moves an entire Windows setup — apps, per-app
+    data, dev and agent configs, Wi-Fi, fonts, files — to a new laptop in one
+    PowerShell run, with granular app selection and conflict handling.
+  </p>
+</section>
+
+<section class="section reveal" id="resume">
+  <h2 class="section-title">The résumé</h2>
+  <article class="card resume-card">
+    <h3 class="card-subtitle">One page, current</h3>
+    <p class="card-note">
+      The same file I send out — rendered from the evidence-linked profile
+      behind this site. Kept up to date with the rest of it.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="./assets/resume.pdf" download="Samay_Shetty_DevOps_Engineer_Resume.pdf">Download résumé ↓</a>
+      <a class="btn" href="./delta.html#provenance">How it was built</a>
+    </div>
+  </article>
+</section>
+
+<section class="section reveal">
+  <div class="cta-row">
+    <a class="btn" href="./delta.html">What all of it added up to →</a>
+  </div>
+</section>
+
+
+<div id="tooltip" class="tooltip" hidden></div>
+
+<div id="palette" class="palette" hidden>
+  <div class="palette-box">
+    <input id="palette-input" type="text" placeholder="Jump to a release, section, skill…" aria-label="Command palette" />
+    <ul id="palette-results"></ul>
+    <p class="palette-hint">↑↓ navigate · Enter open · Esc close</p>
+  </div>
+</div>
+
+<script src="./forge-data.js?v=1792471911"></script>
+<script src="./forge.js?v=1792471911"></script>
+</body>
+</html>
